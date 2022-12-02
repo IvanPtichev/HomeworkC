@@ -77,7 +77,8 @@ int num = Convert.ToInt32(Console.ReadLine());
 int current = 2;
 
 if(num>0)
-{while(current <= num)
+{   
+    while(current <= num)
     {
     Console.WriteLine(current + " ");
     current +=2;
