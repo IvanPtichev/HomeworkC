@@ -24,24 +24,25 @@ else
 
 // Задача2: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет
 
-int ThirdNum(int num);
-     While(num > 1000);
-     {
-        int num = NullableComparer / 10;
-     }
-     if(num < 1000)
-     {
+int ThirdNum(int num)
+     { 
         int ed = num % 100 % 10;
+        return ed;
      } 
          
 
 Console.WriteLine("Введите число");
 int num1 = Convert.ToInt32(Console.ReadLine());
-int newNum = ThirdNum(num1);
 
-if(num1 >=100 || num1 <= -100)
+if(num1 > 100 || num1 < -100)
 {
+    while(num1 >= 1000 || num1 <= - 1000)
+    {
+    num1 = num1 / 10;
+    }
+    int newNum = ThirdNum(num1);
     Console.WriteLine($"Третья цифра {newNum}");
+
 }
 else
 {
