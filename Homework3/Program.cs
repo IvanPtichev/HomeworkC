@@ -52,7 +52,7 @@ Console.WriteLine($"distance {result}");
 */
 
 // Задача3: Напишите программу, которая принимает на вход число (N) и выдаёт таблицу кубов чисел от 1 до N.
-
+/*
 void Cube(int num)
 {
     int counter = 1;
@@ -70,3 +70,4 @@ int number = Convert.ToInt32(Console.ReadLine());
 
 if(number < 0) number = number * -1;
 Cube(number);
+*/
