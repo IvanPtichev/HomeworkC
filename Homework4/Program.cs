@@ -44,4 +44,30 @@ int sum = Sum(number);
 Console.WriteLine($"the sum of the digits in the number is {sum}");
 */
 // Задача3: Напишите программу, которая задаёт массив из 8 элементов и выводит их на экран.
+/*
+int[] CreateArray(int size)
+{
+    int[] array = new int[size];
+    
+    for(int i = 0; i < size; i++)
+        {
+            Console.WriteLine("enter array element");
+            array[i] = Convert.ToInt32(Console.ReadLine());
+        }
+    return array;
+}
 
+void ShowArray(int[] array)
+    {
+        for(int i = 0; i < array.Length; i++)
+        {
+            Console.WriteLine($"array[{i + 1}] is {array[i]}");
+        }
+}
+
+Console.Write("Input a size array: ");
+int sizeArray = Convert.ToInt32(Console.ReadLine());
+
+int[] newArray = CreateArray(sizeArray);
+ShowArray(newArray);
+*/
