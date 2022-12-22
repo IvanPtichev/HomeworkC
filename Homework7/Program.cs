@@ -65,7 +65,7 @@ ShowArray(myArray);
 */
 
 // Задача2: Напишите программу, которая на вход принимает позиции элемента в двумерном массиве, и возвращает значение этого элемента или же указание, что такого элемента нет.
-
+/*
 void IndexValue( int[,] array, int numA, int numB)
 {
     if(numA < array.GetLength(0) && numB < array.GetLength(1))
@@ -90,7 +90,7 @@ Console.Write("Input an index 2: ");
 int index2 = Convert.ToInt32(Console.ReadLine());
 
 IndexValue(myArray, index1, index2);
-
+*/
 
 // Задача3: Задайте двумерный массив из целых чисел. Найдите среднее арифметическое элементов в каждом столбце.
 /*
